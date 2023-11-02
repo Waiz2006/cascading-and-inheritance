@@ -1,0 +1,42 @@
+/* last rule */
+/* p {
+    color: red;
+}
+p {
+    color: green;
+} */
+
+/* specificity + important*/
+/* used importnat so every thing went blue */
+/* *{
+    color: blue !important;
+} 
+p{
+    color:purple;
+}
+p#intro {
+    color: aqua;
+} */
+/* css inheritnace */
+/* div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(112, 41, 0, 0.623);
+    padding:  10px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+} */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(112, 41, 0, 0.623);
+    padding:  10px;
+    border: 1px solid blue;
+}
+.page
+{
+background-color: aliceblue;
+padding: inherit;
+border: 1px solid palevioletred;
+}
